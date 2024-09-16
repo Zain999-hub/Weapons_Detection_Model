@@ -19,3 +19,25 @@ The training process involved using the YOLOv8n model on the carefully selected 
 🔸Overfitting Control: The model maintained a balance between training and validation losses, showing that overfitting was successfully avoided. This was achieved through careful monitoring and incremental training in batches of 100 epochs.
 
 The model achieved high accuracy and generalization while effectively avoiding overfitting, making it a valuable tool for weapon detection in forensic and crime scene investigations.
+
+## Model Predictions on Real Images:
+
+Below are some examples showcasing the model's predictions:
+
+<div style="display: flex; gap: 20px; justify-content: flex-start;">
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/5ffd1004-8c9f-426f-a622-36680248edb2" alt="Handgun detected" width="600"/>
+    <p>Prediction: Handgun </p>
+  </div>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/e4c50a87-4a26-42ec-906f-3c16650af120" alt="Rifle detected" width="600"/>
+    <p>Prediction: Rifle </p>
+  </div>
+    <div align="center">
+    <img src="https://github.com/user-attachments/assets/6d5bf7f6-6668-4a69-b31a-ae1c97f9a248" alt="Knife detected" width="600"/>
+    <p>Prediction: Knife </p>
+  </div>
+  </div>
+  
+
+
