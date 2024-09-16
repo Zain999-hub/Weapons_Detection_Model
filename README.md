@@ -13,8 +13,8 @@ The training process involved using the YOLOv8n model on the carefully selected 
 ![results](https://github.com/user-attachments/assets/92b4ea44-553c-4991-af96-ae2d46bb330c)
 🔸Loss Trends:
 
-    -Train Loss: Both box and classification losses continued to decline, indicating effective learning. The model minimized error while reaching optimal levels.
-    -Val Loss: Validation loss showed consistent improvement, with minimal overfitting. This demonstrates strong generalization to unseen data, even after 300 epochs.
+    Train Loss: Both box and classification losses continued to decline, indicating effective learning. The model minimized error while reaching optimal levels.
+    Val Loss: Validation loss showed consistent improvement, with minimal overfitting. This demonstrates strong generalization to unseen data, even after 300 epochs.
     
 🔸Overfitting Control: The model maintained a balance between training and validation losses, showing that overfitting was successfully avoided. This was achieved through careful monitoring and incremental training in batches of 100 epochs.
 
